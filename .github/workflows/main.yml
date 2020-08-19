@@ -32,4 +32,4 @@ jobs:
     - name: Making Build folder
       run: CI=false yarn build
     - name: React App Deploy
-      run: surge ./build Bootcamp2020-jamshed-red-Queen-race.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build Bootcamp2020-jamshed-quiz-app.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
