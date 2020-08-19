@@ -29,6 +29,8 @@ jobs:
       uses: Borales/actions-yarn@v2.1.0
       with:
         cmd: install
+    - name: cleaning cache
+      run: yarn cache clean
     - name: Making Build folder
       run: CI=false yarn build
     - name: React App Deploy
