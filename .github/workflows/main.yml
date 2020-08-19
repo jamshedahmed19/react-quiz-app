@@ -32,6 +32,6 @@ jobs:
     - name: cleaning cache
       run: yarn cache clean
     - name: Making Build folder
-      run: CI=false yarn build
+      run: yarn build
     - name: React App Deploy
       run: surge ./build Bootcamp2020-jamshed-quiz-app.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
