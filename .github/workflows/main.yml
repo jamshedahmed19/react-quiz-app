@@ -34,4 +34,4 @@ jobs:
     - name: Making Build folder
       run: yarn build
     - name: React App Deploy
-      run: surge ./build bootcamp2020-jamshed-quiz-app.surge.sh// --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build bootcamp2020-jamshed-quiz-app.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
