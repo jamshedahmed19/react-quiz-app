@@ -3,7 +3,7 @@ import QuestionCard from "./components/QuestionCard";
 import { fetchQuizQuestion, Difficulty, QuestionsState } from "./API";
 import { GlobalStyle, Wrapper } from "./App.styles";
 // Gif
-import Loading from './assets/Spin-1s-200px.gif';
+import Loading from "./assets/Spin-1s-200px.gif";
 
 export type AnswerObject = {
   question: string;
